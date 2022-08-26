@@ -1,0 +1,75 @@
+------------------------------
+Key-Pair Length
+------------------------------
+*BFV_Python*
+Saved Numpy Compressed Bytes:
+SK (priv.bfv.npz): 2,152 bytes
+PK (pub.bfv.npz): 61,943 bytes
+RLK (rlk.bfv.npz): 61,285 bytes
+
+
+*RSA*
+SK (priv.rsa.pem): 302 bytes
+PK (pub.rsa.pem): 117 bytes
+
+
+*SEAL (Pyfhel)*
+BFV:
+SK (priv.pyfhel-bfv.bin): 70,170 bytes
+PK (pub.pyfhel-bfv.bin): 134,085 bytes
+RLK (rlk.pyfhel-bfv.bin): 276,735 bytes
+
+CKKS:
+SK (priv.pyfhel-ckks.bin): 481,323 bytes
+PK (pub.pyfhel-ckks.bin): 965,937 bytes
+RLK (rlk.pyfhel-ckks.bin): 3,876,177 bytes
+
+
+------------------------------
+Ciphertext Size
+------------------------------
+*BFV_Python*
+142400 bytes
+
+
+*RSA*
+65 bytes
+
+
+*SEAL BFV (Pyfhel)*
+131210 bytes
+
+*SEAL CKKS (Pyfhel)*
+1048714 bytes (using default parameters)
+
+
+------------------------------
+Execution Time (avg. of 1000 runs)
+------------------------------
+*BFV_Python*
+Avg. Key Generation Execution Time for scheme 'bfv_python': 58.5035 ms
+Avg. Encryption Execution Time for scheme 'bfv_python': 38.4067 ms
+Avg. Decryption Execution Time for scheme 'bfv_python': 19.6712 ms
+Avg. Addition Evaluation Execution Time for scheme 'bfv_python': 3.4171 ms
+Avg. Multiplication Evaluation Execution Time for scheme 'bfv_python': 75.3017 ms
+
+
+*RSA*
+Avg. Key Generation Execution Time for scheme 'RSA': 5.1041 ms
+Avg. Encryption Execution Time for scheme 'RSA': 0.4303 ms
+Avg. Decryption Execution Time for scheme 'RSA': 0.2906 ms
+
+
+*SEAL BFV (Pyfhel)*
+Avg. Key Generation Execution Time for scheme 'pyfhel-bfv': 46.1042 ms
+Avg. Encryption Execution Time for scheme 'pyfhel-bfv': 40.1624 ms
+Avg. Decryption Execution Time for scheme 'pyfhel-bfv': 38.9471 ms
+Avg. Addition Evaluation Execution Time for scheme 'pyfhel-bfv': 38.5873 ms
+Avg. Multiplication Evaluation Execution Time for scheme 'pyfhel-bfv': 40.5772 ms
+
+*SEAL CKKS (Pyfhel)*
+Avg. Key Generation Execution Time for scheme 'pyfhel-ckks': 343.745 ms
+Avg. Encryption Execution Time for scheme 'pyfhel-ckks': 320.7375 ms
+Avg. Decryption Execution Time for scheme 'pyfhel-ckks': 299.3121 ms
+Avg. Addition Evaluation Execution Time for scheme 'pyfhel-ckks': 299.8704 ms
+Avg. Multiplication Evaluation Execution Time for scheme 'pyfhel-ckks': 299.5114 ms

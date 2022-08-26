@@ -1,0 +1,6 @@
+{
+    "scheme": "pyfhel-ckks",
+    "broker": "mosquitto.ssa-project.xyz",
+    "tls": false,
+    "port": 1883
+}
