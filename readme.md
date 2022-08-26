@@ -1,4 +1,6 @@
-# Master Thesis: The Design of a Homomorphic Encryption Algorithm for the Resource-constrained IoT with Efficiency Objectives
+# University of Essex Online Master Thesis
+
+The Design of a Homomorphic Encryption Algorithm for the Resource-constrained IoT with Efficiency Objectives
 
 ## Project Introduction
 Homomorphic encryption is a theoretical solution to overcome several new privacy and security concerns that emerged with the increasing popularity of the Internet of Things. However, homomorphic encryptions also require an increased resource overhead on the often resource-constrained IoT end device. This dissertation aims to explore the impact of homomorphic encryption schemes on the device while optimising efficiency. The main contribution of this dissertation to the field of research is the implementation of a homomorphic encryption scheme using the NumPy Python library. 
@@ -6,7 +8,7 @@ Homomorphic encryption is a theoretical solution to overcome several new privacy
 The goal of the implementation is to create a resource-efficient encryption library that is easy to understand, yet easily applicable within IoT systems. Different encryption schemes were benchmarked using a PoC IoT application to explore this viability. 
 
 ## Repository Structure
-The core BFV Python encryption library can be found in the module “bfv_python.py”, whereas the unit tests that were run to verify the code outputs can be found in the script “unittest.py”.
+The core BFV Python encryption library can be found in the module `bfv_python.py`, whereas the unit tests that were run to verify the code outputs can be found in the script `unittest.py`.
 
 The subfolder “PoC” contains all files related to the created proof-of-concept IoT application. Inside, there are folders containing the different docker image files, python scripts and requirements to emulate the end device, controller, and evaluation stack.
 
