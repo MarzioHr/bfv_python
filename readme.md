@@ -1,4 +1,4 @@
-# University of Essex Online Master Thesis
+# University of Essex Online - Master Thesis
 
 The Design of a Homomorphic Encryption Algorithm for the Resource-constrained IoT with Efficiency Objectives
 
