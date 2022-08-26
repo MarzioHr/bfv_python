@@ -16,8 +16,8 @@ The subfolder “collected_data” contains all gathered raw data from the bench
 
 ## Validation and Verification
 Throughout the project, two main levels of testing were utilised to validate and verify the quality of the implementation:
-•	Unit Testing
-•	Continuous Review via Linters
+*	Unit Testing
+*	Continuous Review via Linters
 
 A unit test is a way of testing a unit - the smallest piece of code that can be logically isolated in a system. In most programming languages, that is a function, a subroutine, a method, or property (Olan, 2003). In the Python BFV homomorphic encryption scheme implementation, the outputs of the various functions, such as the key generation, encryption, decryption, and evaluations, are tested to confirm that they fulfil expectations in terms of typing and results. In the case of the dissertation implementation, the testing was done instead via print-based unit tests due to limited time. While developing and adjusting the code, print statements were used to verify the outputs of functions and ensure that the individual units of the library are working as expected. A test script has been included in the project’s GitHub repository and can be run to validate the library’s outputs. 
 
