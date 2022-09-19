@@ -1,6 +1,6 @@
 # University of Essex Online - Master Thesis
 
-The Design of a Homomorphic Encryption Algorithm for the Resource-constrained IoT with Efficiency Objectives
+The Design of a Homomorphic Encryption Library489499 for the Resource-constrained IoT with Efficiency Objectives
 
 ## Project Introduction
 Homomorphic encryption is a theoretical solution to overcome several new privacy and security concerns that emerged with the increasing popularity of the Internet of Things. However, homomorphic encryptions also require an increased resource overhead on the often resource-constrained IoT end device. This dissertation aims to explore the impact of homomorphic encryption schemes on the device while optimising efficiency. The main contribution of this dissertation to the field of research is the implementation of a homomorphic encryption scheme using the NumPy Python library. 
